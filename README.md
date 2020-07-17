@@ -2,16 +2,16 @@
 Providing (near) Real-time Analytics on personal portfolio
 ## Table of Contents
 
-1. [here] (#Motivation and Goal)
+1. [Motivation and Goal](README.md#motivation-and-goal)
 2. Data Description
 3. Data Pipeline
-4. Demo
+4. [Demo](README.md#demo)
 5. Engineering Challenges
 6. Dashboard
 
 ### Motivation and Goal
 
-A study by Federal Reserve Board in 2016 shows that almost 52% of the US families owned stocks either directly or as a part of a fund. Sometimes it is frustating to miss on the stocks you are waiting for to invest in. So, my primary goal is to build a Stock Alert system to help an individual or a retail investor to understand which stocks are changing rapidly in his personal portfolio. It also helps him/her to decide on different BUY and SELL options.
+A study by Federal Reserve Board in 2016 shows that almost 52% of the US families owned stocks either directly or as a part of a fund. Sometimes it is frustrating to miss on the stocks you are waiting for to invest in. So, my primary goal is to build a Stock Alert system to help an individual or a retail investor to understand which stocks are changing rapidly in his personal portfolio. It also helps him/her to decide on different BUY and SELL options.
 
 ### Data Description
 
