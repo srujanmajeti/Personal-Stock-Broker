@@ -3,11 +3,11 @@ Providing (near) Real-time Analytics on personal portfolio
 ## Table of Contents
 
 1. [Motivation and Goal](README.md#motivation-and-goal)
-2. Data Description
-3. Data Pipeline
+2. [Data Description](README.md#data-description)
+3. [Data Pipeline](README.md#data-pipeline)
 4. [Demo](README.md#demo)
-5. Engineering Challenges
-6. Dashboard
+5. [Engineering Challenges](README.md#engineering-challenges)
+6. [Dashboard](README.md#dashboard)
 
 ### Motivation and Goal
 
