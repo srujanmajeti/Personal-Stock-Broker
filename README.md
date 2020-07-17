@@ -2,7 +2,7 @@
 Providing (near) Real-time Analytics on personal portfolio
 ## Table of Contents
 
-1. Motivation and Goal
+1. [here] (#Motivation and Goal)
 2. Data Description
 3. Data Pipeline
 4. Demo
