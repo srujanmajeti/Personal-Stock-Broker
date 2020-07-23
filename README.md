@@ -19,7 +19,7 @@ I've considered approximately 2500 tickers for the project that are complied fro
 
 ### Data Pipeline
 
-<img src="pipeline/pipeline.png">
+<img src="pipeline/pipeline.png" width=100>
 
 - Initially data will be fetched from Yahoo Finance API and pre-process the data to store the data into Amazon DynamoDB from multiple EC2 instances.
 - To calculate stock metrics on historic and real-time data, I used Apache Spark as my compute engine.
