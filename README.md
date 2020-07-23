@@ -15,13 +15,13 @@ A study by Federal Reserve Board in 2016 shows that almost 52% of the US familie
 
 ### Data Description
 
-I've considered approximately 2500 tickers for my project that are complied from famous stock market indices like S&P500, RUSSELL 1000, DOW JONES etc. I'm getting all my data from Yahoo Finance API. I have 2 types of data considered: Historic data and Real-time data. Historic data is a day-wise data and Real-time data is minute-by-minute data.
+I've considered approximately 2500 tickers for the project that are complied from famous stock market indices like S&P500, RUSSELL 1000, DOW JONES etc. I'm getting all my data from Yahoo Finance API. I have 2 types of data considered: Historic data and Real-time data. Historic data is a day-wise data and Real-time data is minute-by-minute data.
 
 ### Data Pipeline
 
 {picture}
 
-- Initially data will fetched from Yahoo Finance API and pre-process the data to store the data into Amazon DynamoDB from multiple EC2 instances.
+- Initially data will be fetched from Yahoo Finance API and pre-process the data to store the data into Amazon DynamoDB from multiple EC2 instances.
 - To calculate stock metrics on historic and real-time data, I used Apache Spark as my compute engine.
 - To visualize and create a an alert system, I used Python Dash and Amazon SES.
 - To monitor the pipeline and schedule all the sequential jobs, I deployed a server with Apache Airflow.
@@ -37,7 +37,7 @@ I initially I used MySQL as my data store on Amazon RDS, but data ingestion has 
 
 ### Dashboard
 
-I've built the frontend using Python Plotly Dash with Dash core and html components along with CSS styling. Based on the list of tickers user provided and the threshold the user chose, an email alert will be triggered using Amazon SES after checking if the input set of tickers are valid.
+I've built the frontend using Python Dash with Dash core and html components along with CSS styling. Based on the list of tickers user provided and the threshold the user chose, an email alert will be triggered using Amazon SES after checking if the input set of tickers are valid.
 
 
 ### Contact Information
